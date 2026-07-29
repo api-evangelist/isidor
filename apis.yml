@@ -1,7 +1,28 @@
 aid: isidor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/isidor.png
 name: Isidor
-description: Isidor is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Isidor is a frontier enterprise-AI company, founded in 2025 and headquartered
+  in San Francisco with a London presence, building secure, vertically-integrated data
+  pipelines that transform unstructured proprietary enterprise data into training- and
+  evaluation-ready material for foundation models. Its platform spans five capabilities
+  it describes as evaluation (industry-specific and agentic benchmarks), verifiers for
+  generative-AI outputs in critical workflows, reasoning-trace data capture, foundation-model
+  post-training (fine-tuning and alignment on proprietary data), and enterprise-grade
+  security and privacy. Isidor raised an oversubscribed $3.6M pre-seed led by Gradient
+  Ventures, futurepresent, and Seedcamp, with angels from Google DeepMind, Perplexity,
+  and others. The company has no public API or developer surface yet; this profile tracks
+  it as an enrichment lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/isidor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Enterprise AI
+- Machine Learning
+- Data Pipelines
+- Model Training
+- Evaluation
+- LLM
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/isidor-domain-security.yml
 - type: Website
-  url: http://isidor.ai
+  url: https://isidor.ai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
