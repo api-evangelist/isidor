@@ -35,6 +35,9 @@ description: Isidor is a frontier enterprise-AI company, founded in 2025 and hea
   and others. The company has no public API or developer surface yet; this profile tracks
   it as an enrichment lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/isidor/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company has no public API or developer surface yet; this profile tracks it as an enrichment lead in the API Evangelist network."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
